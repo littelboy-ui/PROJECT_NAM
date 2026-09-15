@@ -70,7 +70,9 @@ export default function DashboardPage() {
                     <CardTitle className="text-base">Release Readiness</CardTitle>
                   </CardHeader>
                   <CardContent className="pt-0 text-sm text-zinc-700">
-                    <Badge variant="success" className="mb-3">On Track</Badge>
+                    <div className="mb-3">
+                      <Badge variant="success">On Track</Badge>
+                    </div>
                     QA pass-rate and defect trends are within PRD tolerances.
                   </CardContent>
                 </Card>
@@ -79,7 +81,9 @@ export default function DashboardPage() {
                     <CardTitle className="text-base">Risks</CardTitle>
                   </CardHeader>
                   <CardContent className="pt-0 text-sm text-zinc-700">
-                    <Badge variant="warning" className="mb-3">2 Watch Items</Badge>
+                    <div className="mb-3">
+                      <Badge variant="warning">2 Watch Items</Badge>
+                    </div>
                     Analytics dependency and late review cycle are being monitored.
                   </CardContent>
                 </Card>
@@ -88,7 +92,9 @@ export default function DashboardPage() {
                     <CardTitle className="text-base">Customer Impact</CardTitle>
                   </CardHeader>
                   <CardContent className="pt-0 text-sm text-zinc-700">
-                    <Badge variant="secondary" className="mb-3">Expected Lift +12%</Badge>
+                    <div className="mb-3">
+                      <Badge variant="secondary">Expected Lift +12%</Badge>
+                    </div>
                     Focus areas map to conversion and retention goals in the PRD.
                   </CardContent>
                 </Card>
