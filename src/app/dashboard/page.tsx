@@ -21,7 +21,11 @@ export default function DashboardPage() {
             <p className="text-sm text-zinc-600">Frontend-only preview with product and delivery KPIs.</p>
           </div>
           <div className="flex flex-col gap-3 sm:flex-row sm:items-center">
-            <Input placeholder="Search projects, teams, or tasks..." className="w-full sm:w-72" />
+            <Input
+              aria-label="Search projects, teams, or tasks"
+              placeholder="Search projects, teams, or tasks..."
+              className="w-full sm:w-72"
+            />
             <Button variant="outline" size="sm">
               <Filter className="h-4 w-4" />
               Filters
