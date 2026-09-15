@@ -1,4 +1,4 @@
-# PROJECT_NAM
+# Project NAM
 
 Frontend dashboard built with Next.js, Tailwind CSS, and shadcn/ui-style components.
 

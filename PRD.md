@@ -1,4 +1,4 @@
-# PROJECT_NAM PRD
+# Project NAM PRD
 
 ## Product Goal
 Provide a unified dashboard for product and delivery stakeholders to monitor project execution, sprint health, and release readiness.

@@ -6,11 +6,11 @@ export const dashboardSummary = [
 ];
 
 export const projectRows = [
-  { name: "Mobile Checkout Revamp", owner: "Design + Web", status: "In Progress", priority: "High", dueDate: "Sep 28" },
-  { name: "Subscription Analytics", owner: "Data Team", status: "Blocked", priority: "Medium", dueDate: "Oct 2" },
-  { name: "Onboarding Simplification", owner: "Growth", status: "In Review", priority: "High", dueDate: "Sep 20" },
-  { name: "Security Hardening Sprint", owner: "Platform", status: "In Progress", priority: "High", dueDate: "Oct 5" },
-  { name: "NPS Feedback Loop", owner: "CX Team", status: "Planned", priority: "Low", dueDate: "Oct 12" },
+  { id: "proj-1", name: "Mobile Checkout Revamp", owner: "Design + Web", status: "In Progress", priority: "High", dueDate: "Sep 28" },
+  { id: "proj-2", name: "Subscription Analytics", owner: "Data Team", status: "Blocked", priority: "Medium", dueDate: "Oct 2" },
+  { id: "proj-3", name: "Onboarding Simplification", owner: "Growth", status: "In Review", priority: "High", dueDate: "Sep 20" },
+  { id: "proj-4", name: "Security Hardening Sprint", owner: "Platform", status: "In Progress", priority: "High", dueDate: "Oct 5" },
+  { id: "proj-5", name: "NPS Feedback Loop", owner: "CX Team", status: "Planned", priority: "Low", dueDate: "Oct 12" },
 ];
 
 export const recentActivities = [

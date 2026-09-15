@@ -17,7 +17,7 @@ export default function DashboardPage() {
         <header className="flex flex-col gap-4 rounded-xl border border-zinc-200 bg-white p-5 md:flex-row md:items-center md:justify-between">
           <div>
             <p className="text-sm text-zinc-500">PRD-aligned overview</p>
-            <h1 className="text-2xl font-semibold tracking-tight">PROJECT_NAM Dashboard</h1>
+            <h1 className="text-2xl font-semibold tracking-tight">Project NAM Dashboard</h1>
             <p className="text-sm text-zinc-600">Frontend-only preview with product and delivery KPIs.</p>
           </div>
           <div className="flex flex-col gap-3 sm:flex-row sm:items-center">

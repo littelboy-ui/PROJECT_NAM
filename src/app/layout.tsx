@@ -1,12 +1,17 @@
 import type { Metadata } from "next";
+import type { ReactNode } from "react";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "PROJECT_NAM Dashboard",
-  description: "Frontend dashboard for PROJECT_NAM",
+  title: "Project NAM Dashboard",
+  description: "Frontend dashboard for Project NAM",
 };
 
-export default function RootLayout({ children }: LayoutProps<"/">) {
+export default function RootLayout({
+  children,
+}: Readonly<{
+  children: ReactNode;
+}>) {
   return (
     <html lang="en" className="h-full antialiased">
       <body className="min-h-full flex flex-col">{children}</body>

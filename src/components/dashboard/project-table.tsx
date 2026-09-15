@@ -9,6 +9,7 @@ import {
 } from "@/components/ui/table";
 
 type ProjectRow = {
+  id: string;
   name: string;
   owner: string;
   status: string;
@@ -37,7 +38,7 @@ export function ProjectTable({ rows }: { rows: ProjectRow[] }) {
         </TableHeader>
         <TableBody>
           {rows.map((row) => (
-            <TableRow key={row.name}>
+            <TableRow key={row.id}>
               <TableCell className="font-medium">{row.name}</TableCell>
               <TableCell>{row.owner}</TableCell>
               <TableCell>
